@@ -1,6 +1,6 @@
 const express = require('express');
 const connectDb = require("./config/db");
-const { catchphrases, questions } = require("./routes/index");
+const { questions } = require("./routes/index");
 const swaggerJsDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 
